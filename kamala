@@ -1,0 +1,12 @@
+n=list(input())
+g=[]
+l=[]
+c=0
+for i in range(0,len(n),1):
+    while(i):
+        if n[i] not in g:
+            g.append(n[i])
+            c=c+1
+        else:
+            break
+print(c)
